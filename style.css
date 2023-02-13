@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("assets/fonts/Poppins-Light.ttf");
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src:url("assets/fonts/Poppins-Bold.ttf");
+}
+/* body */
+body{
+    background:white;
+}
+
+/* Navigation */
+.navbar{
+    background:orange !important;
+}
+ .navbar-nav li:hover{
+    background-color: lightblue;
+    transition: .4s;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* Showcase */
+.showcase{
+    background: url(assets/images/Showcase.jpg);
+    height: 98vh;
+    background-size: cover;
+}
+.showcase{
+    border:1px solid yellow;
+}
+.showcase .overlay{
+    height: 100%;
+    width: 100%;
+}
+.showcase h2{
+    font-family:Poppins-Bold;
+}
+/* Services Botton */
+.z-hover{
+    transition: padding .4s;
+}
+.z-hover:hover{
+    background-color: lightblue !important;
+    padding-right:2rem;
+    padding-left:2rem;
+    border:1px solid yellow;
+    
+}
